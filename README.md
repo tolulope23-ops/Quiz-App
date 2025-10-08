@@ -4,6 +4,7 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 
 ---
 
+
 ## 🎯 Features
 
 - Displays **one question at a time** with four multiple-choice options  
@@ -15,17 +16,19 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 
 ---
 
+
 quiz-app/
 │
 ├── index.html           # Main HTML file
 ├── css/
 │   └── style.css        # Custom styles
-├── Js/
+├── js/
 │   └── scripts.js       # JavaScript quiz logic
 └── assets/
-    └── screenshot.png   # app preview image
+    └── screenshot.png   # App preview image
 
 ---
+
 
 ## 🧠 Tech Stack
 - **HTML5** – Structure of the quiz interface  
@@ -33,6 +36,7 @@ quiz-app/
 - **JavaScript (ES6)** – Quiz logic and DOM manipulation 
 
 ---
+
 
 ## ⚙️ How It Works
 1. The quiz data (questions, options, and answers) are stored in a JavaScript array.  
@@ -45,8 +49,9 @@ quiz-app/
 
 ```markdown
 ## 📸 Preview
-![Quiz App Screenshot](./assets/screenshot.png)
+![Quiz App Screenshot](./image/screenshot.png)
 
+```
 
 ---
 
@@ -57,7 +62,7 @@ quiz-app/
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Run Locally
 1. Clone this repository  
    ```bash
    git clone https://github.com/tolulope23-ops/Quiz-App.git
