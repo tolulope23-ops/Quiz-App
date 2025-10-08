@@ -2,8 +2,6 @@
 A school wants a small tool to test students’ understanding after each lesson.  
 The teacher can input multiple-choice questions, and students can take the quiz to see their score immediately after completion.
 
----
-
 
 ## 🎯 Features
 
@@ -15,15 +13,11 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 - All data (questions, options, and answers) are stored **in memory** — no backend or database  
 
 
----
-
 
 ## 🧠 Tech Stack
 - **HTML5** – Structure of the quiz interface  
 - **CSS3**, **boostrap** – Styling and layout  
 - **JavaScript (ES6)** – Quiz logic and DOM manipulation 
-
----
 
 
 ## ⚙️ How It Works
@@ -34,22 +28,19 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 5. The user can restart the quiz to retake it without reloading the page.  
 
 
----
+## 📸 Preview
 
 ```markdown
-## 📸 Preview
 ![Quiz App Screenshot](./image/screenshot.png)
 
 ```
-
----
 
 ## 💡 Future Improvements
 - Add a backend to store quiz questions and student scores  
 - Include timer functionality for each question  
 - Implement category-based quizzes 
 
----
+
 
 ## 🚀 Run Locally
 1. Clone this repository  
