@@ -14,18 +14,6 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 - Includes a **Restart** feature to retake the quiz  
 - All data (questions, options, and answers) are stored **in memory** — no backend or database  
 
----
-
-
-quiz-app/
-│
-├── index.html           # Main HTML file
-├── css/
-│   └── style.css        # Custom styles
-├── js/
-│   └── scripts.js       # JavaScript quiz logic
-└── assets/
-    └── screenshot.png   # App preview image
 
 ---
 
@@ -44,6 +32,7 @@ quiz-app/
 3. When the user selects an option and clicks **Next**, their answer is recorded in memory.  
 4. After the final question, the script calculates the total score and displays it.  
 5. The user can restart the quiz to retake it without reloading the page.  
+
 
 ---
 
