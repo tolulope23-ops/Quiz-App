@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#quiz-container{
+    padding: 10px 15px;
+    margin: 15px;
+    border: 2px solid;
+    width: 70%;
+    border-radius: 10px;
+    border-color: rgb(106, 106, 189);
+    align-content: center;
+}
+
+#heading{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#quiz-container #score{
+    display: none;
+}
+
+#quiz-container #btn{
+    margin: auto;
+    display: none;
+}
+
+#quiz-container button{
+    margin-top: 60px;
+}
+
+form{
+    margin: 25px;
+}
+
+
+
