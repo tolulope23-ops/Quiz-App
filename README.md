@@ -10,7 +10,7 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 - Calculates and displays the **final score as a percentage**  
 - Allows users to **navigate back** to previous questions  
 - Includes a **Restart** feature to retake the quiz  
-- All data (questions, options, and answers) are stored **in memory** — no backend or database  
+- All data (questions, options, and answers) are stored **in memory** no backend or database  
 
 
 
@@ -24,16 +24,12 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 1. The quiz data (questions, options, and answers) are stored in a JavaScript array.  
 2. When the quiz starts, one question is displayed at a time.  
 3. When the user selects an option and clicks **Next**, their answer is recorded in memory.  
-4. After the final question, the script calculates the total score and displays it.  
+4. After the final question and user clicks submit, the script calculates the total score and displays it.  
 5. The user can restart the quiz to retake it without reloading the page.  
 
 
 ## 📸 Preview
-
-```markdown
 ![Quiz App Screenshot](./image/screenshot.png)
-
-```
 
 ## 💡 Future Improvements
 - Add a backend to store quiz questions and student scores  
