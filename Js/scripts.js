@@ -1,71 +1,9 @@
-//Quiz Data
-const data = [
-    {
-        question: "Which of the following best describes how a web server works?",
-        options: 
-        [
-            "It stores static files only",
-            "It acts as a database engine", 
-            "It listens for client requests and sends responses over HTTP/HTTPS",
-            "It compiles code into binaries"
-        ],
-        answer: "It listens for client requests and sends responses over HTTP/HTTPS"
-    },
-
-    {
-        question: "When a web server responds to multiple requests, what concept is mainly involved?",
-        options: 
-        [
-            "Synchronization",
-            "Concurrency",
-            "Compilation",
-            "Encryption",
-        ],
-        answer: "Concurrency"
-    },
-
-    {
-        question: "Which web server is known for high concurrency and low resource usage?",
-        options: 
-        [
-            "Apache",
-            "IIS",
-            "Tomcat",
-            "Nginx"
-        ],
-        answer: "Nginx"
-    },
-
-    {
-        question: "In replication, keeping data consistent across servers is called:",
-        options: 
-        [
-            "Serialization",
-            "Buffering",
-            "Authentication",
-            "Synchronization"
-        ],
-        answer: "Synchronization"
-    },
-
-    {
-        question: "Node.js applications typically run on which type of server model?",
-        options: 
-        [
-            "Blocking I/O",
-            "Multi-process",
-            "Non-blocking, event-driven",
-            "Thread-per-request",
-        ],
-        answer: "Non-blocking, event-driven"
-    }
-]
+import {data} from './questionData.js';
 
 //DOM elements
 const number = document.getElementById("questionNo");
 let totalNumber = document.getElementById("total");
 
-let quizContainer = document.getElementById("quiz-container");
 let question = document.getElementById("question");
 let inputOptions = document.querySelectorAll("input[name='options']");
 let labelOptions = document.querySelectorAll("label.form-check-label");
@@ -104,20 +42,20 @@ function displayQuestion() {
     
 // display options for each question.
     for(let x = 0; x < currentindex.options.length; x++){
-        inputOptions[x].value = currentindex.options[x]
+        inputOptions[x].value = currentindex.options[x];
         labelOptions[x].innerHTML = currentindex.options[x];
     };
 
 // restores saved answer if user goes to previous question
     if (userAnswers[current]) {
-    let savedAnswer = userAnswers[current];
-    for (let input of inputOptions) {
-        if (input.value === savedAnswer) {
-            input.checked = true;
-            break;
+        let savedAnswer = userAnswers[current];
+        for (let input of inputOptions) {
+            if (input.value === savedAnswer) {
+                input.checked = true;
+                break;
+            }
         }
     }
-}
 };
 
 
@@ -131,7 +69,6 @@ function saveAnswer() {
     if (selected) {
         userAnswers[current] = selected;
     }
-    console.log(userAnswers);
 };
 
 function calculateScore() {
@@ -141,9 +78,11 @@ function calculateScore() {
             score += 10;
         }
     }
+    console.log(score);
+    
 };
 
-
+//Block of code takes effect once the previous button is clicked
 btnprevious.addEventListener("click", () => {
     saveAnswer();
     if (current > 0) {
@@ -155,6 +94,7 @@ btnprevious.addEventListener("click", () => {
     }
 });
 
+//Block of code takes effect once the next button is clicked
 btnNext.addEventListener("click", () =>{
     saveAnswer();
     current++;
@@ -178,6 +118,7 @@ btnNext.addEventListener("click", () =>{
     }  
 });
 
+//Block of code check the text in the button(submit or restart) to decide which block of code to execute
 btn.addEventListener("click", () => {
     if(btn.innerHTML === "Submit"){
         calculateScore();
@@ -207,3 +148,8 @@ btn.addEventListener("click", () => {
 });
 
 displayQuestion();
+
+//Note: Code improvement
+// Add an Admin dashboard to save questions with varying topics.
+// When a user comes in and want to use the app, they get to chose which topics they want to be questioned on.
+// The Admin get to set a timer for each of the questions according to the topics.
