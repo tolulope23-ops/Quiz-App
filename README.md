@@ -42,3 +42,12 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 1. Clone this repository  
    ```bash
    git clone https://github.com/tolulope23-ops/Quiz-App.git
+
+
+## 👩‍💻 Author
+**Racheal Adeyemi**  
+Backend Developer | Tech4Dev Trainee |  Passionate about creating intuitive web tools while building secure and scalable APIs that solve real-world problems.
+
+🔗 [LinkedIn](https://linkedin.com/in/raedev)
+
+🐙 [GitHub](https://github.com/tolulope23-ops)
