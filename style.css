@@ -10,7 +10,7 @@ body{
     padding: 10px 15px;
     margin: 15px;
     border: 2px solid;
-    width: 70%;
+    width: 50%;
     border-radius: 10px;
     border-color: rgb(106, 106, 189);
     align-content: center;
@@ -42,3 +42,69 @@ form{
 
 
 
+/* MOBILE DEVICES (0px — 480px) */
+@media (max-width: 480px) {
+    body {
+        padding: 8px;
+        margin: 0;
+        display: block;
+    }
+
+    #quiz-container {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    #heading {
+        flex-direction: row;
+        font-size: 12px;
+        gap: 5px;
+    }
+
+    #heading h3{
+       font-size: 14px;
+    }
+
+    form {
+        margin: 10px;
+    }
+
+    #quiz-container button {
+        width: 50%;
+        margin-top: 25px;
+    }
+
+    .form-check {
+        margin-bottom: 12px;
+    }
+}
+
+/* SMALL TABLETS (481px — 768px) */
+@media(min-width: 481px) and (max-width: 768px) {
+    #quiz-container {
+        width: 80%;
+        padding: 10px;
+    }
+
+    #heading {
+        flex-direction: row;
+        font-size: 15px;
+        gap: 5px;
+    }
+
+    #heading h3{
+       font-size: 18px;
+    }
+
+    form {
+        margin: 10px;
+    }
+}
+
+/* TABLETS / SMALL LAPTOPS (769px — 1024px) */
+@media(min-width: 769px) and (max-width: 1024px) {
+    #quiz-container {
+        width: 75%;
+    }
+}
