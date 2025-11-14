@@ -78,8 +78,6 @@ function calculateScore() {
             score += 10;
         }
     }
-    console.log(score);
-    
 };
 
 //Block of code takes effect once the previous button is clicked
@@ -148,8 +146,3 @@ btn.addEventListener("click", () => {
 });
 
 displayQuestion();
-
-//Note: Code improvement
-// Add an Admin dashboard to save questions with varying topics.
-// When a user comes in and want to use the app, they get to chose which topics they want to be questioned on.
-// The Admin get to set a timer for each of the questions according to the topics.
