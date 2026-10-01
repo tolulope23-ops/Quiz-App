@@ -1,6 +1,8 @@
-### 🏫 Case Study
-A school wants a small tool to test students’ understanding after each lesson.  
-The teacher can input multiple-choice questions, and students can take the quiz to see their score immediately after completion.
+## Quiz App
+
+A browser-based multiple-choice quiz application built with HTML, CSS, and JavaScript.
+
+The application presents questions one at a time, allows users to navigate between questions while preserving their answers, calculates the final score, and provides an option to restart the quiz.
 
 ## Preview
 ![Quiz App Screenshot](./image/screenshot.png)
