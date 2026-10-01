@@ -2,6 +2,8 @@
 A school wants a small tool to test students’ understanding after each lesson.  
 The teacher can input multiple-choice questions, and students can take the quiz to see their score immediately after completion.
 
+## Preview
+![Quiz App Screenshot](./image/screenshot.png)
 
 ## 🎯 Features
 
@@ -28,9 +30,6 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 5. The user can restart the quiz to retake it without reloading the page.  
 
 
-## 📸 Preview
-![Quiz App Screenshot](./image/screenshot.png)
-
 ## 💡 Future Improvements
 - Add a backend to store quiz questions and student scores  
 - Include timer functionality for each question  
@@ -38,16 +37,18 @@ The teacher can input multiple-choice questions, and students can take the quiz 
 
 
 
-## 🚀 Run Locally
+## Run Locally
 1. Clone this repository  
    ```bash
    git clone https://github.com/tolulope23-ops/Quiz-App.git
 
 
-## 👩‍💻 Author
-**Racheal Adeyemi**  
-Backend Developer | Tech4Dev Trainee |  Passionate about creating intuitive web tools while building secure and scalable APIs that solve real-world problems.
+Author
 
-🔗 [LinkedIn](https://linkedin.com/in/raedev)
+Rachael Adeyemi
 
-🐙 [GitHub](https://github.com/tolulope23-ops)
+Backend Developer focused on building reliable and maintainable software systems.
+
+License
+
+This project is available for educational and portfolio purposes.
