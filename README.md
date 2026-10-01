@@ -7,7 +7,7 @@ The application presents questions one at a time, allows users to navigate betwe
 ## Preview
 ![Quiz App Screenshot](./image/screenshot.png)
 
-## 🎯 Features
+## Features
 
 - Displays **one question at a time** with four multiple-choice options  
 - Tracks user-selected answers as they move between questions  
@@ -18,7 +18,7 @@ The application presents questions one at a time, allows users to navigate betwe
 
 
 
-## 🧠 Tech Stack
+## Tech Stack
 - **HTML5** – Structure of the quiz interface  
 - **CSS3**, **boostrap** – Styling and layout  
 - **JavaScript (ES6)** – Quiz logic and DOM manipulation 
@@ -45,12 +45,11 @@ The application presents questions one at a time, allows users to navigate betwe
    git clone https://github.com/tolulope23-ops/Quiz-App.git
 
 
-Author
+## Author
 
-Rachael Adeyemi
+   Rachael Adeyemi
+   Backend Developer focused on building reliable and maintainable software systems.
 
-Backend Developer focused on building reliable and maintainable software systems.
+## License
 
-License
-
-This project is available for educational and portfolio purposes.
+   This project is available for educational and portfolio purposes.
